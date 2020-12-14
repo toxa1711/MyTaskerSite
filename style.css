@@ -1,0 +1,84 @@
+#progress{
+  background: #2B2E4A;
+  border: 2px solid black;
+  height: 40px;
+  width: 800px;
+  position: fixed;
+  z-index: 999999;
+}
+
+#task{
+  /*background: #322322;*/
+  border: 2px dashed black;
+  width: 125px;
+  height: 36px;
+  float: left;
+  z-index: 90;
+  position: relative;
+  /*margin-left: 1px;
+  margin-top: 1px;*/
+}
+
+#taskDone{
+  background: repeating-linear-gradient(-45deg, #000000 0, #000000 2px, transparent 1px, transparent 10px);
+  background: ;
+  /*text-align: center;*/
+  font-size: 30px;
+  border: 2px solid black;
+  width: 125px;
+  height: 36px;
+  float: left;
+  z-index: 90;
+  position: relative;
+}
+
+#story{
+  padding-top: 40px;
+  background: #903749;
+  height: 1000px;
+  margin-left: 50px;
+  width: 700px;
+  border: 2px solid black;
+}
+
+#current{
+  background: #E84545;
+  width: 500px;
+  height: 40px;
+  position: absolute;
+  z-index: 10;
+
+}
+
+#currentTask{
+  background: #FAEEDD;
+  margin-top: -15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  min-height: 50px;
+  border-radius: 2px;
+
+}
+
+#buttonRed{
+  border: 1px solid black;
+  width: 210px;
+  border-radius: 5px;
+  height: 30px;
+  position: relative;
+  float: left;
+  background: #E84545;
+  margin: 10px;
+}
+
+h1{
+  color: black;
+  margin-left: 10px;
+}
+
+body{
+  background: #2B2E4A;
+  width: 800px;
+  margin: auto;
+  zoom: 200%;
+}
