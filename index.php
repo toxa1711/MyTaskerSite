@@ -19,11 +19,12 @@
 </div>
 
 <div id = "story">
-  <h1 class = "storyDone">Sleep22</h1>
-  <h1 class = "storyDone">Waking up</h1>
-  <h1 class = "storyDone">ZZy</h1>
-  <h1 class = "storyDone">F</h1>
-  <h1 class = "storyDone">Task5</h1>
+  <h1 id = "11" class = "storyDone">Sleep22</h1>
+  <h1 id = "12" class = "storyDone">Waking up</h1>
+  <h1 id = "13" class = "storyDone">ZZy</h1>
+  <h1 id = "14" class = "storyDone">F</h1>
+  <h1 id = "15" class = "storyDone">Task5</h1>
+  <h1 id = "16" class = "storyDone">Task6</h1>
   <div id = "currentTask">time: <?php echo strftime("%H %M") ?></div>
 
  <div id = "buttonRed"></div>
@@ -33,8 +34,6 @@
 
 <h1><?php echo oci_connect('f1', 'welcome','ORCL')   ?></h1>
 
-  <h1>Task6</h1>
-  <h1>Task7</h1>
 </div>
 <script>
         var z1 = <?php echo (strftime("%H")*60 + strftime("%M")) ?>;
