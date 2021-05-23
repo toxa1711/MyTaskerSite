@@ -49,7 +49,7 @@
 
           let div = document.createElement('div');
           div.className = "menu";
-          div.innerHTML = "<div id = "currentTask">time: <?php echo strftime("%H %M") ?></div> <div id = "buttonRed"></div> <div id = "buttonRed"></div> <div id = "buttonRed"></div>";
+          div.innerHTML = '<div id = "currentTask">time: <?php echo strftime("%H %M") ?></div> <div id = "buttonRed"></div> <div id = "buttonRed"></div> <div id = "buttonRed"></div>';
           document.grtElementById(10+i).append(div);
 			}
 			else{
