@@ -60,6 +60,11 @@
 
 }
 
+.storyDone{
+  text-decoration: line-through;
+
+}
+
 #buttonRed{
   border: 1px solid black;
   width: 210px;
