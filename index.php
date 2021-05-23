@@ -19,11 +19,11 @@
 </div>
 
 <div id = "story">
-  <h1><s>Sleep22</s></h1>
-  <h1><s>Waking up</s></h1>
-  <h1><s>ZZy</s></h1>
-  <h1><s>F</s></h1>
-  <h1>Task5</h1>
+  <h1 class = "storyDone">Sleep22</h1>
+  <h1 class = "storyDone">Waking up</h1>
+  <h1 class = "storyDone">ZZy</h1>
+  <h1 class = "storyDone">F</h1>
+  <h1 class = "storyDone">Task5</h1>
   <div id = "currentTask">time: <?php echo strftime("%H %M") ?></div>
 
  <div id = "buttonRed"></div>
