@@ -25,11 +25,9 @@
   <h1 id = "14" class = "storyDone">F</h1>
   <h1 id = "15" class = "storyDone">Task5</h1>
   <h1 id = "16" class = "storyDone">Task6</h1>
-  <div id = "currentTask">time: <?php echo strftime("%H %M") ?></div>
 
- <div id = "buttonRed"></div>
- <div id = "buttonRed"></div>
- <div id = "buttonRed"></div>
+
+
  <br>
 
 <h1><?php echo oci_connect('f1', 'welcome','ORCL')   ?></h1>
@@ -48,6 +46,11 @@
 			if(z1 > 240*i){
 				document.getElementById(i).className = "taskDone";
   				document.getElementById(10+i).className = "storyDone";
+
+          let div = document.createElement('div');
+          div.className = "menu";
+          div.innerHTML = "<div id = "currentTask">time: <?php echo strftime("%H %M") ?></div> <div id = "buttonRed"></div> <div id = "buttonRed"></div> <div id = "buttonRed"></div>";
+          document.grtElementById(10+i).append(div);
 			}
 			else{
 				document.getElementById(i).className = "task";
@@ -61,6 +64,9 @@
 	wid();
 	 //document.getElementById("current").style.width = "100px";
         let a = setInterval(wid, 1000*60);
+
+
+
 </script>
 
 </body>
