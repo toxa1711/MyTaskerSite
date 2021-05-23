@@ -47,9 +47,11 @@
 		for(let i = 1; i < 7; i++){
 			if(z1 > 240*i){
 				document.getElementById(i).className = "taskDone";
+  				document.getElementById(10+i).className = "storyDone";
 			}
 			else{
 				document.getElementById(i).className = "task";
+  				document.getElementById(10+i).className = "story";
 			}
 		}
 
