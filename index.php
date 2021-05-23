@@ -47,10 +47,10 @@
 				document.getElementById(i).className = "taskDone";
   				document.getElementById(10+i).className = "storyDone";
 
-          let div = document.createElement('div');
+          /*let div = document.createElement('div');
           div.className = "menu";
           div.innerHTML = '<div id = "currentTask">time: <?php echo strftime("%H %M") ?></div> <div id = "buttonRed"></div> <div id = "buttonRed"></div> <div id = "buttonRed"></div>';
-          document.getElementById(10+i).append(div);
+          document.getElementById(10+i).append(div);*/
 			}
 			else{
 				document.getElementById(i).className = "task";
