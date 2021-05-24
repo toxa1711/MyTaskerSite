@@ -40,25 +40,24 @@ let times = [100,100,100,100,250,100];
 let lenght = 6;
 
 for(let i = 0; i < lenght; i++){
-  document.getElementById(i+1).style.width = times[i]+"px";
+  document.getElementById(i+1).style.width = (times[i]-4)+"px";
 }
 
-        var z1 = <?php echo (strftime("%H")*60 + strftime("%M")) ?>;
-        function wid(){
-                z1++;
-		if(z1 > 1440){
-			z1 = 0;
-		}
-		let z = z1 * 0.55555555;
-		let u = z+'px';
-		for(let i = 1; i < 7; i++){
-      let q = 0;
+    var z1 = <?php echo (strftime("%H")*60 + strftime("%M")) ?>;
+    function wid(){
+      z1++;
+		  if(z1 > 1440){
+			     z1 = 0;
+		  }
+      let z = z1 * 0.55555555;
+      let u = z+'px';
+      for(let i = 1; i < 7; i++){
+        let q = 0;
       for(let z = 0; z < i; z++){
         q += times[z];
       }
-      console.log(q);
 
-			if(z1 > q){
+			if(z > q){
 				document.getElementById(i).className = "taskDone";
   				document.getElementById(10+i).className = "storyDone";
 
