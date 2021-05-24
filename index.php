@@ -19,12 +19,12 @@
 </div>
 
 <div id = "story">
-  <h1 id = "11" class = "storyDone">Sleep22</h1>
-  <h1 id = "12" class = "storyDone">Waking up</h1>
-  <h1 id = "13" class = "storyDone">ZZy</h1>
-  <h1 id = "14" class = "storyDone">F</h1>
-  <h1 id = "15" class = "storyDone">Task5</h1>
-  <h1 id = "16" class = "storyDone">Task6</h1>
+  <h1 id = "11" class = "storyDone"><input type="checkbox">Sleep22</h1>
+  <h1 id = "12" class = "storyDone"><input type="checkbox">Waking up</h1>
+  <h1 id = "13" class = "storyDone"><input type="checkbox">ZZy</h1>
+  <h1 id = "14" class = "storyDone"><input type="checkbox">F</h1>
+  <h1 id = "15" class = "storyDone"><input type="checkbox">Task5</h1>
+  <h1 id = "16" class = "storyDone"><input type="checkbox">Task6</h1>
 
 
 
