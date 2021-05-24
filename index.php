@@ -43,7 +43,7 @@ let task = {
 times = {100,120,330,340}
 
 for(let i = 0; i < times.lenght; i++){
-  document.getElementById(i+1).style.width = times[i];
+  document.getElementById(i+1).style.width = times[i]+"px";
 }
 
         var z1 = <?php echo (strftime("%H")*60 + strftime("%M")) ?>;
