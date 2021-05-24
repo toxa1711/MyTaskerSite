@@ -35,10 +35,6 @@
 </div>
 <script>
 
-let task = {
-  time : 0;
-  name : "none";
-}
 
 times = {100,120,330,340}
 
