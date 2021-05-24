@@ -52,7 +52,12 @@ for(let i = 0; i < lenght; i++){
 		let z = z1 * 0.55555555;
 		let u = z+'px';
 		for(let i = 1; i < 7; i++){
-			if(z1 > 240*i){
+      let q = 0;
+      for(let z = 0; z < i; z++){
+        q += times[z];
+      }
+
+			if(z1 > q){
 				document.getElementById(i).className = "taskDone";
   				document.getElementById(10+i).className = "storyDone";
 
