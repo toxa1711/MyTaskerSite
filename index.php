@@ -43,7 +43,7 @@ let lenght = 7;
 
 for(let i = 0; i < lenght; i++){
   document.getElementById("progress").innerHTML += "<div id = "+(i+1)+' class = "taskDone"></div>';
-  document.getElementById("story").innerHTML += '<h1 id = "1' + (i+1) + ' class = "storyDone"><input type="checkbox">Waking up</h1>';
+  document.getElementById("story").innerHTML += '<h1 id = "1' + (i+1) + '" class = "storyDone"><input type="checkbox">Waking up</h1>';
 }
 
 for(let i = 0; i < lenght; i++){
