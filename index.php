@@ -40,7 +40,7 @@
 <script>
 
 
-let times = [30,60*2,60*2,60*1,60*4,60*4,60*10.5]; //Минут
+let times = [30,60*2,60*2,60*1,60*2,60*4,60*2,60*10.5]; //Минут
 let stories = [
   'Отправить курносенко',
   'Altium Чертежи',
@@ -48,9 +48,10 @@ let stories = [
   'Алгоритм работы',
   'РПЗ',
   'К кулешову',
+  'РПЗ',
   'отбой',
 ]
-let lenght = 7;
+let lenght = 8;
 
 for(let i = 0; i < lenght; i++){
   document.getElementById("progress").innerHTML += "<div id = "+(i+1)+' class = "taskDone"></div>';
