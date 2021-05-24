@@ -37,6 +37,7 @@
 
 
 times = [100,120,330,340]
+  document.getElementById(1).style.width = 100+"px";
 
 for(let i = 0; i < times.lenght; i++){
   document.getElementById(i+1).style.width = times[i]+"px";
