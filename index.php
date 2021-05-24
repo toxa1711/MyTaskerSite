@@ -58,7 +58,7 @@ for(let i = 0; i < lenght; i++){
 }
 
 for(let i = 0; i < lenght; i++){
-  document.getElementById(i+1).style.width = (times[i]-4)/ 0.55555555+"px";
+  document.getElementById(i+1).style.width = ((times[i]* 0.55555555) -4) +"px";
 }
 
     var z1 = <?php echo (strftime("%H")*60 + strftime("%M")) ?>;
