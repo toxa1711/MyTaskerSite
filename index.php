@@ -32,7 +32,9 @@
 
  <br>
 
-<h1><?php echo oci_connect('f1', 'welcome','ORCL')   ?></h1>
+<!--<h1><?php
+//echo oci_connect('f1', 'welcome','ORCL')  
+ ?></h1>-->
 
 </div>
 <script>
