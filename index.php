@@ -77,7 +77,7 @@ for(let i = 0; i < lenght; i++){
         }
 	wid();
 	 //document.getElementById("current").style.width = "100px";
-        let a = setInterval(wid, 1000*60);
+        let a = setInterval(wid, 1*60);
 
 
 
