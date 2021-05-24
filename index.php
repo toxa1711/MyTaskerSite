@@ -10,13 +10,13 @@
   <div id = "current" style="width: <?php echo ((strftime("%H") / 12) * 800) + (strftime("%M") / 60 * (800 / 12)) ?>px">
 
   </div>
-  <div id = "1" class = "taskDone"></div>
+  <!--<div id = "1" class = "taskDone"></div>
   <div id = "2" class = "taskDone"></div>
   <div id = "3" class = "taskDone"></div>
   <div id = "4" class = "taskDone"></div>
   <div id = "5" class = "task"></div>
   <div id = "6" class = "task"></div>
-  <div id = "7" class = "task"></div>
+  <div id = "7" class = "task"></div>-->
 </div>
 
 <div id = "story">
@@ -40,6 +40,10 @@
 
 let times = [100,100,100,100,250,100,50];
 let lenght = 7;
+
+for(let i = 0; i < lenght; i++){
+  document.getElementById("progress").innerHTML += "<div id = "+(i+1)+' class = "taskDone"></div>';
+}
 
 for(let i = 0; i < lenght; i++){
   document.getElementById(i+1).style.width = (times[i]-4)+"px";
