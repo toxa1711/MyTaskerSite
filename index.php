@@ -36,7 +36,7 @@
 <script>
 
 
-let times = [100,100,100,100,100,100];
+let times = [100,100,100,100,250,100];
 let lenght = 6;
 
 for(let i = 0; i < lenght; i++){
