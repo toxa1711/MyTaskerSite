@@ -20,13 +20,13 @@
 </div>
 
 <div id = "story">
-  <h1 id = "11" class = "storyDone"><input type="checkbox">Sleep22</h1>
+  <!--<h1 id = "11" class = "storyDone"><input type="checkbox">Sleep22</h1>
   <h1 id = "12" class = "storyDone"><input type="checkbox">Waking up</h1>
   <h1 id = "13" class = "storyDone"><input type="checkbox">ZZy</h1>
   <h1 id = "14" class = "storyDone"><input type="checkbox">F</h1>
   <h1 id = "15" class = "storyDone"><input type="checkbox">Task5</h1>
   <h1 id = "16" class = "storyDone"><input type="checkbox">Task6</h1>
-  <h1 id = "17" class = "storyDone"><input type="checkbox">Task6</h1>
+  <h1 id = "17" class = "storyDone"><input type="checkbox">Task6</h1>-->
 
 
 
@@ -43,6 +43,7 @@ let lenght = 7;
 
 for(let i = 0; i < lenght; i++){
   document.getElementById("progress").innerHTML += "<div id = "+(i+1)+' class = "taskDone"></div>';
+  document.getElementById("story").innerHTML += '<h1 id = "1' + (i+1) + ' class = "storyDone"><input type="checkbox">Waking up</h1>';
 }
 
 for(let i = 0; i < lenght; i++){
