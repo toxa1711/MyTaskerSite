@@ -56,6 +56,7 @@ for(let i = 0; i < lenght; i++){
       for(let z = 0; z < i; z++){
         q += times[z];
       }
+      console.log(q);
 
 			if(z1 > q){
 				document.getElementById(i).className = "taskDone";
