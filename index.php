@@ -26,6 +26,7 @@
   <h1 id = "14" class = "storyDone"><input type="checkbox">F</h1>
   <h1 id = "15" class = "storyDone"><input type="checkbox">Task5</h1>
   <h1 id = "16" class = "storyDone"><input type="checkbox">Task6</h1>
+  <h1 id = "17" class = "storyDone"><input type="checkbox">Task6</h1>
 
 
 
