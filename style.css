@@ -10,7 +10,7 @@
 .task{
   /*background: #322322;*/
   border: 2px dashed black;
-  width: 129.333px;
+  /*width: 129.333px;*/
   height: 36px;
   float: left;
   z-index: 90;
@@ -21,7 +21,7 @@
 
 input[type = "checkbox"]{
 	margin-right: 10px;
-	
+
 }
 
 .taskDone{
@@ -30,7 +30,7 @@ input[type = "checkbox"]{
   /*text-align: center;*/
   font-size: 30px;
   border: 2px solid black;
-  width: 129.333px;
+  /*width: 129.333px;*/
   height: 36px;
   float: left;
   z-index: 90;
