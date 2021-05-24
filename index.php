@@ -40,7 +40,7 @@
 <script>
 
 
-let times = [100,100,100,100,250,100,50];
+let times = [60*2,60*2,60*2,60*1,60*2,60*2,60*1]; //Минут
 let stories = [
   'Альтиум',
   'Чертежи',
@@ -58,7 +58,7 @@ for(let i = 0; i < lenght; i++){
 }
 
 for(let i = 0; i < lenght; i++){
-  document.getElementById(i+1).style.width = (times[i]-4)+"px";
+  document.getElementById(i+1).style.width = (times[i]-4)* 0.55555555+"px";
 }
 
     var z1 = <?php echo (strftime("%H")*60 + strftime("%M")) ?>;
@@ -71,11 +71,11 @@ for(let i = 0; i < lenght; i++){
       let u = z+'px';
       for(let i = 1; i < lenght+1; i++){
         let q = 0;
-      for(let z = 0; z < i; z++){
-        q += times[z];
+      for(let zz = 0; zz < i; zz++){
+        q += times[zz];
       }
 
-			if(z > q){
+			if(z1 > q){
 				document.getElementById(i).className = "taskDone";
   				document.getElementById(10+i).className = "storyDone";
 
