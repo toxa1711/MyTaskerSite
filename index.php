@@ -33,7 +33,7 @@
  <br>
 
 <!--<h1><?php
-//echo oci_connect('f1', 'welcome','ORCL')  
+//echo oci_connect('f1', 'welcome','ORCL')
  ?></h1>-->
 
 </div>
@@ -41,11 +41,20 @@
 
 
 let times = [100,100,100,100,250,100,50];
+let stories = [
+  'Альтиум',
+  'Чертежи',
+  'Корпус',
+  'Алгоритм',
+  'РПЗ',
+  'К кулешову',
+  'отбой',
+]
 let lenght = 7;
 
 for(let i = 0; i < lenght; i++){
   document.getElementById("progress").innerHTML += "<div id = "+(i+1)+' class = "taskDone"></div>';
-  document.getElementById("story").innerHTML += '<h1 id = "1' + (i+1) + '" class = "storyDone"><input type="checkbox">Waking up</h1>';
+  document.getElementById("story").innerHTML += '<h1 id = "1' + (i+1) + '" class = "storyDone"><input type="checkbox">'+stories[i]+'</h1>';
 }
 
 for(let i = 0; i < lenght; i++){
