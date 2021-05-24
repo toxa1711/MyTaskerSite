@@ -52,7 +52,7 @@ for(let i = 0; i < lenght; i++){
 		  }
       let z = z1 * 0.55555555;
       let u = z+'px';
-      for(let i = 1; i < 7; i++){
+      for(let i = 1; i < lenght+1; i++){
         let q = 0;
       for(let z = 0; z < i; z++){
         q += times[z];
